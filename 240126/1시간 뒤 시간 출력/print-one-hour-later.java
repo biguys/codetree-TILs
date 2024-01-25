@@ -7,9 +7,6 @@ public class Main {
         sc.useDelimiter(":");
         int a = sc.nextInt(), b = sc.nextInt();
         System.out.printf("%d:%d",a+1,b);
-        
-
-
 
     }
 }
