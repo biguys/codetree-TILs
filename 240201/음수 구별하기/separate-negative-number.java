@@ -7,7 +7,7 @@ public class Main {
         int a = sc.nextInt();
         if(a < 0)
             System.out.printf("%d\nminus",a);
-        if(a > 0)
+        else
             System.out.printf("%d\n",a);
     }
 }
