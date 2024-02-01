@@ -5,9 +5,10 @@ public class Main {
         // 여기에 코드를 작성해주세요.
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt(), b = sc.nextInt();
-        int c =b/(a*a);
+        int c = a*100;
+        int d =b/(c*c);
         if(c>25)
-        System.out.printf("%d\nobsity",c);
+        System.out.printf("%d\nObsity",c);
         else
         System.out.printf("%d",c);
     }
