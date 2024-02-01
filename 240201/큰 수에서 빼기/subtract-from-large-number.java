@@ -9,8 +9,9 @@ public class Main {
             System.out.printf("%d",a-b);
         if(a<b)
             System.out.printf("%d",b-a);
-        if(a=b)
-            System.out.printf("%d",a-b);
+        else
+            System.out.print("0");
+
             
     }
 }
