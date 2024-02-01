@@ -7,7 +7,7 @@ public class Main {
         int cm = sc.nextInt(), kg = sc.nextInt();
         int bmi = kg*100*100/(cm*cm);
         
-        System.out.print(bmi);
+        System.out.println(bmi);
 
         if(bmi>=25)
             System.out.print("oBesity");
