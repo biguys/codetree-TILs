@@ -10,6 +10,6 @@ public class Main {
         System.out.println(bmi);
 
         if(bmi>=25)
-            System.out.print("oBesity");
+            System.out.print("Obesity");
     }
 }
