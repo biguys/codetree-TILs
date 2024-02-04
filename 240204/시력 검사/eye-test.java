@@ -6,9 +6,9 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         double a = sc.nextDouble(), b = sc.nextDouble();
 
-        if(a>=1.0&&b>1.0)
+        if(a>=1.0&&b>=1.0)
             System.out.printf("High");
-        else if(a>=0.5&&b>0.5)
+        else if(a>=0.5&&b>=0.5)
             System.out.printf("Middle");
         else 
             System.out.printf("Low");
