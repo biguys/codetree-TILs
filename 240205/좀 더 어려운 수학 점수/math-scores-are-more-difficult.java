@@ -8,9 +8,8 @@ public class Main {
 
         if(am > bm)
             System.out.print("A");
-        else System.out.print("B");
         
-        if(am ==bm)
+        else if(am == bm)
             System.out.print(ae > be ? 'A' : "B");
     }
 }
