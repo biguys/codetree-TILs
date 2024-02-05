@@ -6,7 +6,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int m = sc.nextInt();
 
-        if(m <= 2)
+        if(m <= 2 || m >= 12)
             System.out.print("Winter");
         else if(m <= 5)
             System.out.print("Spring");
