@@ -11,8 +11,6 @@ public class Main {
         else System.out.print("B");
         
         if(am ==bm)
-            System.out.print();
-        else if (be>de ? 'A' : "B")
-            System.out.print("A");
+            System.out.print(ae > be ? 'A' : "B");
     }
 }
