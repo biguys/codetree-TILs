@@ -8,6 +8,6 @@ public class Main {
         char as = sc.next().charAt(0);
         int b = sc.nextInt();
         char bs = sc.next().charAt(0);
-        System.out.println((a >=19 || b >=19) && (as=='M' || bs=='M') ? "1" : "0");
+        System.out.println((a >=19 && as=='M' ) || (b >=19 && bs=='M') ? "1" : "0");
     }
 }
