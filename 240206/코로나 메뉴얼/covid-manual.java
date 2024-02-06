@@ -12,9 +12,10 @@ public class Main {
         int cx = sc.nextInt();
 
         if((a == 'Y' && b == 'Y') || (a == 'Y' && c == 'Y') || (b == 'Y' && c == 'Y'))
-            if((ax>=37 && bx>=37) || (ax>=37 && cx>=37) || (bx>=37 && cx>=37) )
+            {
+                if((ax>=37 && bx>=37) || (ax>=37 && cx>=37) || (bx>=37 && cx>=37) )
             System.out.print("E");
-        
+            }
         else System.out.print("N");
     }
 }
