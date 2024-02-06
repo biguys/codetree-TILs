@@ -6,13 +6,24 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt(), b = sc.nextInt(), c = sc.nextInt();
 
-        if(a>=b && b>=c && a>=c)
-            System.out.print(b);
-        else if(b>=c && c>=a && b>=a)
-            System.out.print(c);
-        else System.out.print(a);
-        
+        if(a>=b && a>=c){
+            if(b>=c)
+                System.out.print(b);
+            else System.out.print(c);
+        }
 
+        else if(b>=c && b>=a){
+            if(c>=a)
+                System.out.print(c);
+            else System.out.print(a);
+        }
+
+        else if(c>=a && c>=b){
+            if(a>=b)
+                System.out.print(a);
+            else System.out.print(b);
+        }
+            
         
     }
 }
