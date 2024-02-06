@@ -15,6 +15,8 @@ public class Main {
             {
                 if((ax>=37 && bx>=37) || (ax>=37 && cx>=37) || (bx>=37 && cx>=37) )
             System.out.print("E");
+
+            else System.out.print("N");    
             }
         else System.out.print("N");
     }
