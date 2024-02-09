@@ -7,7 +7,8 @@ public class Main {
         int a = sc.nextInt(), b = sc.nextInt();
         int answer1 = (a*10) / b;
         int answer2 = (a*10) % b;
-        System.out.printf("0.");
+        double answer3 = (double) a/b;
+        System.out.printf("%.0f",answer3);
         for(int n=1; n<=20; n++)
         {
             System.out.print(answer1);
