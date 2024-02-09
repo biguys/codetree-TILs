@@ -6,18 +6,20 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt(), b = sc.nextInt();
 
-        for(int i=a; i<=b; i++)
+        for(int i=a; i<=b;)
         {
-            if(a % 2 == 1)
+            if(i % 2 == 1)
             {
                 System.out.print(i+" ");
                 i*=2;
             }
-            if(a % 2 == 0)
+            else
             {
                 System.out.print(i+" ");
-                i+=3;   
+                i+=3;
             }
+        
         }
+        
     }
 }
