@@ -7,6 +7,6 @@ public class Main {
         int n = sc.nextInt();
 
         for(int i=1;i<=5;i++) 
-            System.out.printf("%d",i*n)
+            System.out.printf("%d",i*n);
     }
 }
