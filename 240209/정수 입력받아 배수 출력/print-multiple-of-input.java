@@ -6,7 +6,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
-        for(int i=n; i<=5*n; i+=n)
-            System.out.printf("%d ",i);
+        for(int i=1;i<=5;i++) 
+            System.out.printf("%d",i*n)
     }
 }
