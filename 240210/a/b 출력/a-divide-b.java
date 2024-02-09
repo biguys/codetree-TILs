@@ -7,12 +7,12 @@ public class Main {
         int a = sc.nextInt(), b = sc.nextInt();
         int answer1 = (a*10) / b;
         int answer2 = (a*10) % b;
-
-        System.out.print("0."+answer1);
-        for(int i=0; i<19; i++)
+        System.out.printf("0.");
+        for(int n=1; n<=20; n++)
         {
-            answer2 += (answer2 / 10);
-            System.out.print(answer2);
+            System.out.print(answer1);
+            answer1 = (answer2*10) / b;
+            answer2 = (answer2*10) % b; 
         }
 
     }
