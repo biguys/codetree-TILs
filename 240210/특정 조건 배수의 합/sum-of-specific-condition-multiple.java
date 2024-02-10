@@ -6,6 +6,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt(), b= sc.nextInt();
         int sum=0;
+        if(a<=b){
         for(int i=a; i<=b; i++)
         {
             if(i % 5 == 0)
@@ -13,6 +14,18 @@ public class Main {
                 sum += i;
             }
         }
+        }
+        else
+        {
+        for(int i=b; i<=a; i++)
+        {
+            if(i % 5 == 0)
+            {
+                sum += i;
+            }
+        }
+        }
+
         System.out.println(sum);
     }
 }
