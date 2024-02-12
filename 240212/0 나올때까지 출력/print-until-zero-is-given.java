@@ -7,16 +7,14 @@ public class Main {
 
         for(int i=0; i<=100; i++)
         {   
-           int n = sc.nextInt();
+            i = sc.nextInt();
             
-            if(n != 0){
-            System.out.println(n);
-                continue;
-            }
-            else if (n==0)
+            if(i != 0){
+            System.out.println(i);
+                continue;}
+            
+            else
                 break;
-            
-            
         }
     }
 }
