@@ -9,7 +9,7 @@ public class Main {
 
         for(int i=1; i<=n; i++)
         {
-            if(n % 2 == 0 || n % 2 == 1 || n % 3 == 0)
+            if(n % 2 == 0 || n % 3 == 0)
                 a = true;
         }
 
