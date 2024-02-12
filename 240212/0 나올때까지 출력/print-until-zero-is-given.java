@@ -7,10 +7,10 @@ public class Main {
 
         for(int i=0; i<=100; i++)
         {   
-            i = sc.nextInt();
+            int n = sc.nextInt();
             
             if(i != 0){
-            System.out.println(i);
+            System.out.println(n);
                 continue;}
             
             else
